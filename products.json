@@ -1,0 +1,201 @@
+[
+  {
+    "id": "1",
+    "name": "Tarjeta de Débito Clásica",
+    "description": "Tarjeta de débito para transacciones diarias. Sin costo de mantenimiento, retiros ilimitados en cajeros propios.",
+    "type": "debit_card",
+    "category": "Tarjetas",
+    "benefits": [
+      "Sin costo de mantenimiento",
+      "Retiros ilimitados en red propia",
+      "Compras en comercios afiliados",
+      "Banca en línea incluida"
+    ],
+    "requirements": {
+      "minAge": 18,
+      "minIncome": 0,
+      "documentation": ["DNI", "Comprobante de domicilio"]
+    },
+    "fees": {
+      "annualFee": 0,
+      "maintenanceFee": 0,
+      "atmWithdrawal": 0
+    },
+    "active": true
+  },
+  {
+    "id": "2",
+    "name": "Tarjeta de Crédito Gold",
+    "description": "Tarjeta de crédito con línea de hasta $50,000. Incluye programa de puntos y seguros.",
+    "type": "credit_card",
+    "category": "Tarjetas",
+    "benefits": [
+      "Hasta $50,000 de línea de crédito",
+      "Programa de puntos canjeables",
+      "Seguro de compras incluido",
+      "Meses sin intereses en comercios afiliados"
+    ],
+    "requirements": {
+      "minAge": 21,
+      "minIncome": 15000,
+      "documentation": ["DNI", "Comprobante de ingresos", "Comprobante de domicilio"]
+    },
+    "fees": {
+      "annualFee": 800,
+      "interestRate": 3.5,
+      "atmWithdrawal": 50
+    },
+    "active": true
+  },
+  {
+    "id": "3",
+    "name": "Tarjeta de Crédito Platinum",
+    "description": "Tarjeta premium con línea de hasta $150,000. Acceso a salas VIP de aeropuertos y seguros de viaje.",
+    "type": "credit_card",
+    "category": "Tarjetas",
+    "benefits": [
+      "Hasta $150,000 de línea de crédito",
+      "Acceso a salas VIP aeropuertos",
+      "Seguro de viaje internacional",
+      "Programa de puntos premium",
+      "Concierge 24/7"
+    ],
+    "requirements": {
+      "minAge": 25,
+      "minIncome": 40000,
+      "documentation": ["DNI", "Comprobante de ingresos", "Comprobante de domicilio", "Referencias bancarias"]
+    },
+    "fees": {
+      "annualFee": 2500,
+      "interestRate": 2.8,
+      "atmWithdrawal": 0
+    },
+    "active": true
+  },
+  {
+    "id": "4",
+    "name": "Cuenta de Ahorro Digital",
+    "description": "Cuenta de ahorro 100% digital con rendimientos competitivos. Sin requisitos de saldo mínimo.",
+    "type": "savings_account",
+    "category": "Cuentas",
+    "benefits": [
+      "Apertura 100% digital",
+      "Rendimiento anual del 5%",
+      "Sin saldo mínimo",
+      "Transferencias ilimitadas",
+      "App móvil incluida"
+    ],
+    "requirements": {
+      "minAge": 18,
+      "minIncome": 0,
+      "documentation": ["DNI", "Correo electrónico", "Número celular"]
+    },
+    "fees": {
+      "annualFee": 0,
+      "maintenanceFee": 0,
+      "interestRate": 5.0
+    },
+    "active": true
+  },
+  {
+    "id": "5",
+    "name": "Cuenta Corriente Empresarial",
+    "description": "Cuenta corriente para empresas y emprendedores. Incluye chequera y banca en línea empresarial.",
+    "type": "checking_account",
+    "category": "Cuentas",
+    "benefits": [
+      "Chequera incluida",
+      "Banca empresarial en línea",
+      "Transferencias masivas",
+      "Ejecutivo de cuenta asignado",
+      "Estados de cuenta personalizados"
+    ],
+    "requirements": {
+      "minAge": 21,
+      "minIncome": 25000,
+      "documentation": ["RFC", "Acta constitutiva", "Comprobante de domicilio fiscal", "Identificación del representante legal"]
+    },
+    "fees": {
+      "annualFee": 0,
+      "maintenanceFee": 300,
+      "transactionFee": 5
+    },
+    "active": true
+  },
+  {
+    "id": "6",
+    "name": "Crédito Personal Express",
+    "description": "Préstamo personal de hasta $100,000 con aprobación inmediata. Plazos flexibles de 12 a 60 meses.",
+    "type": "personal_loan",
+    "category": "Créditos",
+    "benefits": [
+      "Aprobación en 24 horas",
+      "Hasta $100,000",
+      "Plazos de 12 a 60 meses",
+      "Sin garantías",
+      "Depósito inmediato"
+    ],
+    "requirements": {
+      "minAge": 23,
+      "minIncome": 10000,
+      "documentation": ["DNI", "Comprobante de ingresos de últimos 3 meses", "Comprobante de domicilio"]
+    },
+    "fees": {
+      "interestRate": 18.5,
+      "openingCommission": 3.5,
+      "processingFee": 500
+    },
+    "active": true
+  },
+  {
+    "id": "7",
+    "name": "Inversión a Plazo Fijo",
+    "description": "Inversión segura con rendimientos garantizados. Plazos desde 1 mes hasta 1 año.",
+    "type": "investment",
+    "category": "Inversiones",
+    "benefits": [
+      "Rendimientos garantizados del 8% anual",
+      "Inversión mínima de $10,000",
+      "Protección IPAB",
+      "Renovación automática opcional",
+      "Intereses pagados mensualmente"
+    ],
+    "requirements": {
+      "minAge": 18,
+      "minIncome": 0,
+      "documentation": ["DNI", "RFC", "Comprobante de domicilio"]
+    },
+    "fees": {
+      "minimumAmount": 10000,
+      "interestRate": 8.0,
+      "earlyWithdrawalPenalty": 2.0
+    },
+    "active": true
+  },
+  {
+    "id": "8",
+    "name": "Seguro de Vida Protección Total",
+    "description": "Seguro de vida con cobertura amplia. Protege a tu familia con suma asegurada de hasta $2,000,000.",
+    "type": "insurance",
+    "category": "Seguros",
+    "benefits": [
+      "Suma asegurada hasta $2,000,000",
+      "Cobertura de muerte accidental",
+      "Gastos funerarios incluidos",
+      "Adelanto por enfermedad terminal",
+      "Sin examen médico hasta $500,000"
+    ],
+    "requirements": {
+      "minAge": 18,
+      "maxAge": 65,
+      "documentation": ["DNI", "Cuestionario de salud", "Beneficiarios designados"]
+    },
+    "fees": {
+      "monthlyPremium": 350,
+      "annualPremium": 3800,
+      "maxCoverage": 2000000
+    },
+    "active": true
+  }
+]
+
