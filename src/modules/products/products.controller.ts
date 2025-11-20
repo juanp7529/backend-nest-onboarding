@@ -6,12 +6,7 @@ import {
   HttpCode,
   HttpStatus,
 } from '@nestjs/common';
-import {
-  ApiTags,
-  ApiOperation,
-  ApiResponse,
-  ApiParam
-} from '@nestjs/swagger';
+import { ApiTags, ApiOperation, ApiResponse, ApiParam } from '@nestjs/swagger';
 import { ProductsService } from './products.service';
 import { Public } from '../../common/decorators/public.decorator';
 import { Product } from './entities/product.entity';
@@ -62,10 +57,7 @@ export class ProductsController {
           description: 'Tarjeta de crédito con línea de hasta $50,000.',
           type: 'credit_card',
           category: 'Tarjetas',
-          benefits: [
-            'Hasta $50,000 de línea de crédito',
-            'Programa de puntos',
-          ],
+          benefits: ['Hasta $50,000 de línea de crédito', 'Programa de puntos'],
           requirements: {
             minAge: 21,
             minIncome: 15000,

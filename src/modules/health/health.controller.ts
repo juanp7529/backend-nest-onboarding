@@ -11,8 +11,7 @@ export class HealthController {
   @HttpCode(HttpStatus.OK)
   @ApiOperation({
     summary: 'Health check',
-    description:
-      'Verifica el estado de salud de la aplicación',
+    description: 'Verifica el estado de salud de la aplicación',
   })
   @ApiResponse({
     status: 200,

@@ -29,8 +29,7 @@ export class OnboardingController {
   @HttpCode(HttpStatus.CREATED)
   @ApiOperation({
     summary: 'Crear nuevo onboarding',
-    description:
-      'Crea un nuevo proceso de onboarding',
+    description: 'Crea un nuevo proceso de onboarding',
   })
   @ApiBody({
     type: CreateOnboardingDto,

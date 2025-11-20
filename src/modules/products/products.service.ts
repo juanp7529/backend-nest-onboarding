@@ -46,7 +46,9 @@ export class ProductsService implements IProductService {
     const product = products.find((p) => p.id === id);
 
     if (!product) {
-      throw new NotFoundException(`Producto bancario con ID ${id} no encontrado`);
+      throw new NotFoundException(
+        `Producto bancario con ID ${id} no encontrado`,
+      );
     }
 
     return product;
